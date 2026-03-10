@@ -1,0 +1,24 @@
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item h4 {
+  font-size: 16px;
+}
+
+.cart-item button {
+  background-color: red;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: darkred;
+}
